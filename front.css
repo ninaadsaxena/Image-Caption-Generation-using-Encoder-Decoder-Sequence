@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #61dafb;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.image-preview {
+  margin: 20px 0;
+}
+
+.image-preview img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #61dafb;
+  border-radius: 10px;
+}
+
+.caption-result {
+  margin-top: 20px;
+}
+
+.caption-result h2 {
+  margin-bottom: 10px;
+}
+
+.caption-result p {
+  background-color: #61dafb;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
